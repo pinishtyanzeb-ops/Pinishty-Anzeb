@@ -2394,8 +2394,8 @@ textarea.form-input{resize:vertical;min-height:60px;}
    4. Nearest service day auto-select on startup — fixed
    ============================================================ */
 
-const SUPABASE_URL = 'https://rlwlbvebhgynmetkpoed.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJsd2xidmViaGd5bm1ldGtwb2VkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAxMzMxNjksImV4cCI6MjA5NTcwOTE2OX0.EoeSCXw6gCuANDMNjLdTToEMUJ85Ytjmr2rNZQvtWdc';
+const SUPABASE_URL = 'https://fdegttckvqddbvgzmdwy.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZkZWd0dGNrdnFkZGJ2Z3ptZHd5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE5MjA0OTksImV4cCI6MjA5NzQ5NjQ5OX0.kJGQXbmtEEViCmD-JiKl_ESJ0e4FjvzhUlvnxWISopo';
 let sb = null;
 try { sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, { realtime:{ params:{ eventsPerSecond:20 } } }); }
 catch(e) { console.error('Supabase init failed:', e); }
